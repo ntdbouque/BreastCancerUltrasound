@@ -1,0 +1,5 @@
+data/
+.gradio/
+experiment/
+temp_gradio/
+predict/
