@@ -17,7 +17,7 @@ This respository support for training many architecture such as Unet, Unet++, De
 ### Experiments:
 These model with many encoders were trained augmentation flip and rotation, test_size=0.2
 
-image
+![Experiment Results](publics/image.png)
 
 ### Installation:
 pip install -r requirements.txt
