@@ -1,8 +1,8 @@
 ## 🎗️ BREAST CANCER DETECTION APPLICATION
 ### 📜Description:
-Breast cancer is the leading cause of cancer deaths in women (Highest incidence rate of cancer).
-Breast ultrasound imaging is noninvasive, nonradioactive, and cost-effective. 
-Besides previous studies using x-rays to diagnose cancer mammograms, breast ultrasound diagnosis achieves promising abilities overall.
+- Breast cancer is the leading cause of cancer deaths in women (Highest incidence rate of cancer).
+- Breast ultrasound imaging is noninvasive, nonradioactive, and cost-effective. 
+- Besides previous studies using x-rays to diagnose cancer mammograms, breast ultrasound diagnosis achieves promising abilities overall.
 ### 📊 Dataset:
 - The dataset consists of the medical images of breast cancer using ultrasound scan, which is categorized into three classes: normal, benign, and malignant images.
 Breast ultrasound images can produce great results in classification, detection, and segmentation of breast cancer when combined with machine learning.
@@ -17,8 +17,11 @@ This respository support for training many architecture such as Unet, Unet++, De
 ### 🧪 Experiments:
 These model with many encoders were trained augmentation **flip** and **rotation**, **test_size**=0.2 🔄
 
-![Experiment Results](publics/image.png)
-*Experiment Results*
+<div style="text-align:center;">
+  <img src="publics/image.png" alt="Experiment Results" width="300">
+  <p><b>Figure 1</b>: Experiment Results</p>
+</div>
+
 ### 🔧 Installation:
 `git clone https://github.com/ntdbouque/BreastCancerUltrasound.git`
 `pip install -r requirements.txt`
@@ -40,5 +43,8 @@ This app designed with 2 main functions: **Image segmentation** and **apply CLAH
 python main.py
 ```
 
-![UI Example](publics/UI.png)
-*UI Example*
+<div style="text-align: center;">
+  <img src="publics/UI.png" alt="UI Example" style="max-width: 100%; height: auto;">
+  <p><em>Figure 1: UI Example</em></p>
+</div>
+
