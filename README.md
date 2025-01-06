@@ -11,7 +11,7 @@ Breast ultrasound images can produce great results in classification, detection,
 LOGIQ E9 ultrasound system and LOGIQ E9 Agile ultrasound system produce image resolution of 1280×1024. All images were cropped. The average image size of 500×500 pixels.
 
 ### ⚙️ Model: 
-This respository support for training many architecture such as Unet, Unet++, DeepLabv3, DeepLabv3Plus,... using [PytorchLightning](https://lightning.ai/docs/pytorch/stable/), [Pytorch Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) Libraries.
+This respository support for training many architecture such as Unet, Unet++, DeepLabv3, DeepLabv3Plus,... and Encoder such as EfficientNet, ResNet,... using [PytorchLightning](https://lightning.ai/docs/pytorch/stable/), [Pytorch Segmentation Models](https://github.com/qubvel-org/segmentation_models.pytorch) Libraries.
 
 
 ### 🧪 Experiments:
