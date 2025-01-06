@@ -20,6 +20,7 @@ These model with many encoders were trained augmentation **flip** and **rotation
 ![Experiment Results](publics/image.png)
 *Experiment Results*
 ### 🔧 Installation:
+`git clone https://github.com/ntdbouque/BreastCancerUltrasound.git`
 `pip install -r requirements.txt`
 ### 🚀 Usage:
 - **Inference**:
