@@ -34,5 +34,6 @@ cd src/
 python run_train.py arg1 arg2 arg3
 ```
 - **Run Application**:
-The app with 2 main function: image segmentation and apply CLAHE for purpose of supporting doctor.
+- This app with 2 main function: image segmentation and apply CLAHE for purpose of supporting doctor.
 `python main.py`
+![UI Example](publics/UI.png)
