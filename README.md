@@ -18,7 +18,7 @@ This respository support for training many architecture such as Unet, Unet++, De
 These model with many encoders were trained augmentation **flip** and **rotation**, **test_size**=0.2 🔄
 
 ![Experiment Results](publics/image.png)
-
+*Experiment Results*
 ### 🔧 Installation:
 `pip install -r requirements.txt`
 ### 🚀 Usage:
@@ -40,3 +40,4 @@ python main.py
 ```
 
 ![UI Example](publics/UI.png)
+*UI Example*
