@@ -37,6 +37,6 @@ python run_train.py arg1 arg2 arg3
 This app designed with 2 main functions: **Image segmentation** and **apply CLAHE for purpose of supporting doctor**.<br>
 ```
 python main.py
-``` <br>
+```
 
 ![UI Example](publics/UI.png)
