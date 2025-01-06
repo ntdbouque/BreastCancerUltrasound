@@ -1,3 +1,8 @@
+'''
+@Author: Nguyen Truong Duy
+@Purpose: thuc hien training
+'''
+
 import torch
 import pytorch_lightning as pl
 import torchvision.transforms as T
