@@ -15,21 +15,24 @@ This respository support for training many architecture such as Unet, Unet++, De
 
 
 ### Experiments:
-These model with many encoders were trained augmentation flip and rotation, test_size=0.2
+These model with many encoders were trained augmentation **flip** and **rotation**, **test_size**=0.2
 
 ![Experiment Results](publics/image.png)
 
 ### Installation:
 pip install -r requirements.txt
 ### Usage:
-**Inference**:
+- **Inference**:
+```
 conda activate env
 cd src/
 python run_infer.py arg1 arg2 arg3
-**Train**:
+````
+- **Train**:
+```
 cd src/
 python run_train.py arg1 arg2 arg3
-**Application**:
+```
+- **Run Application**:
 The app with 2 main function: image segmentation and apply CLAHE for purpose of supporting doctor.
- 
-python main.py
+`python main.py`
