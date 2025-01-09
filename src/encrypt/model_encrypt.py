@@ -43,8 +43,21 @@ class EncConvNet:
     def __call__(self, *args, **kwargs):
         return self.forward(*args, **kwargs)
 
+def infer(context, enc_model, image, kernel_shape, stride):
     
-def enc_test(context, enc_model, test_loader, criterion, kernel_shape, stride):
+    x_enc, windows_nb = ts.im2col_encoding(
+        context,image.view(28,28).tolist(), kernel_shape[0], kernel_shape[1], stride
+        )
+    
+    # Encrypted evaluation
+    enc_output = enc_model(x_enc, windows_nb)
+    # Decryption of result
+    output = enc_output.decrypt()
+    output = torch.tensor(output).view(1, -1)
+    _, pred = torch.max(output, 1)
+    return pred
+
+def enc_test(context, enc_model, test_loader, kernel_shape, stride):
     # initialize lists to monitor test loss and accuracy
     test_loss = 0.0
     class_correct = list(0. for i in range(3))
